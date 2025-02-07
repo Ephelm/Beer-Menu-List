@@ -100,16 +100,51 @@ body {
     color: #333;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
+/* Footer Section */
+.footer {
     background-color: #333;
     color: white;
-    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    max-width: 400px;
+}
+
+.footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    color: #f4a261; /* Hover color */
 }
 
 footer p {
     font-size: 1rem;
+    margin-top: 20px;
 }
 
 /* Responsive Design */
@@ -133,5 +168,10 @@ footer p {
 
     .hero-text p {
         font-size: 1.2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
     }
 }
