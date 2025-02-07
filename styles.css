@@ -64,7 +64,7 @@ body {
 
 .beer-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
@@ -100,12 +100,6 @@ body {
     color: #333;
 }
 
-.beer-image img {
-    width: 180px;
-    height: auto;
-    border-radius: 8px;
-}
-
 footer {
     text-align: center;
     padding: 20px;
@@ -123,10 +117,6 @@ footer p {
     .beer-item {
         flex-direction: column;
         align-items: center;
-    }
-
-    .beer-image {
-        margin-top: 20px;
     }
 
     .beer-info h3 {
