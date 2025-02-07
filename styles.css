@@ -15,6 +15,7 @@ body {
     position: relative;
     width: 100%;
     height: 400px;
+    background-color: #333;
 }
 
 .hero-image {
@@ -41,39 +42,49 @@ body {
     font-size: 1.2em;
 }
 
-/* Beer List Section */
-.beer-list {
+/* Menu List Section */
+.menu-list {
     padding: 30px;
     background-color: #fff;
+    margin-top: 20px;
 }
 
-.beer-list h2 {
-    font-size: 2em;
+.menu-list h2 {
+    font-size: 2.5em;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    color: #333;
 }
 
 .beer-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
 }
 
 .beer-info {
-    margin-bottom: 10px;
+    flex: 1;
+    margin-right: 20px;
 }
 
 .beer-info h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 10px;
+    color: #555;
 }
 
 .beer-info p {
     font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #777;
 }
 
 .beer-info strong {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #000;
 }
 
@@ -83,4 +94,5 @@ footer {
     padding: 20px;
     background-color: #333;
     color: white;
+    margin-top: 40px;
 }
